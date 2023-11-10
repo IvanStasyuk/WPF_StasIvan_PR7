@@ -24,7 +24,7 @@
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
                         </StackPanel>
                         <RadioButton x:Name="question1" Content="1) int" Margin="5"></RadioButton>
-                        <RadioButton x:Name="question2" Content="2) string" Margin="5"></RadioButton>
+                        <RadioButton x:Name="question2" Content="2) string" Margin="5" ></RadioButton>
                         <RadioButton x:Name="question3" Content="3) byte" Margin="5"></RadioButton>
                         <RadioButton x:Name="question4" Content="4) decimal" Margin="5"></RadioButton>
                         <RadioButton x:Name="question5" Content="5) date" Margin="5"></RadioButton>

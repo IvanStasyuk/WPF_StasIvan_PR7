@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF_StasIvan_PR7.WindowResult" Icon="LanguageC.jpg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_StasIvan_PR7"
+        mc:Ignorable="d"
+        Title="Тестирование завершено" Height="300" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="ResultTest" Text="Список вопрос, на которые были даны неправильные ответы:" Grid.Column="1" VerticalAlignment="Center" Grid.ColumnSpan="3" FontFamily="Bahnschrift Light" FontWeight="Bold" TextAlignment="Center"></TextBlock>
+        <TextBox Grid.Row="1" Grid.ColumnSpan="5" Grid.RowSpan="3"></TextBox>
+        <Button x:Name="OK" Grid.Column="4" Grid.Row="4" Height="20" Width="80" Content="ОК" Background="LightGreen" FontWeight="Bold" Click="OK_Click"></Button>
+    </Grid>
+</Window>

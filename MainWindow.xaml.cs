@@ -67,7 +67,10 @@ namespace WPF_StasIvan_PR7
 
         private void EndWindow_Click(object sender, RoutedEventArgs e)
         {
-
+            //WindowResult window2 = new WindowResult();
+            //window2.Show();
+            //if ()
+            //MessageBox.Show($"Список вопросов на которые были даны неправильные ответы:{Environment.NewLine}" + (if (QuestionsTest.SelectedIndex < 9));
         }
     }
 }
