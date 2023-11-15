@@ -1,0 +1,12 @@
+﻿question2.IsChecked == true && question6.IsChecked == true && question14.IsChecked == true && question20.IsChecked == true && question23.IsChecked == true && question27.IsChecked == true && question33.IsChecked == true && question37.IsChecked == true && question43.IsChecked == true && question46.IsChecked == true
+
+else if (a != true)
+            {
+                MessageBox.Show($"Вопросы, на которые были даны неправильные ответы:{Environment.NewLine}", "Тестирование пройдено", MessageBoxButton.OK, MessageBoxImage.Information);
+
+
+                MessageBox.Show($"Тестирование завершено.{Environment.NewLine} Правильных ответов: 10 / 10.{Environment.NewLine}Оценка в пятибальной шкале: 5", "Тестирование пройдено", MessageBoxButton.OK, MessageBoxImage.Information);
+                MainWindow window1 = new MainWindow();
+                window1.Show();
+                this.Close();
+                return;

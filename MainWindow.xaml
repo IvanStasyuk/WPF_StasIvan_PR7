@@ -18,7 +18,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Укажите текстовый тип данных" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB1" Text="Укажите текстовый тип данных" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -41,7 +41,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Как называется конструктор для хранения интерфейса?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB2" Text="Как называется конструктор для хранения интерфейса?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -64,7 +64,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="В каком каталоге хранятся все визуальные ресурсы приложения?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB3" Text="В каком каталоге хранятся все визуальные ресурсы приложения?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -87,7 +87,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Как называется текстовый редактор от компании Microsoft?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB4" Text="Как называется текстовый редактор от компании Microsoft?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -110,7 +110,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Какой из нижеперечисленных вариантов не является правильным именем каталога?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB5" Text="Какой из нижеперечисленных вариантов не является правильным именем каталога?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -133,7 +133,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Сколько окон может быть одновременно открыто?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB6" Text="Сколько окон может быть одновременно открыто?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -156,7 +156,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Что такое Юнит-тестирование?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB7" Text="Что такое Юнит-тестирование?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -179,7 +179,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Какой метод тестирования фокусируется на внутренней структуре кода?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB8" Text="Какой метод тестирования фокусируется на внутренней структуре кода?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -202,7 +202,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Какой метод тестирования направлен на анализ требований и спецификаций без доступа к исходному коду?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB9" Text="Какой метод тестирования направлен на анализ требований и спецификаций без доступа к исходному коду?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
@@ -225,7 +225,7 @@
                 <TabItem.Content>
                     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <TextBlock Text="Как называется программа для написание кода на всех языках программирования?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
+                            <TextBlock x:Name="TB10" Text="Как называется программа для написание кода на всех языках программирования?" TextAlignment="Center" TextWrapping="WrapWithOverflow"></TextBlock>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <Rectangle Height="5" Width="300" Fill="Black"></Rectangle>
